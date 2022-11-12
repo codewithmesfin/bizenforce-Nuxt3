@@ -92,8 +92,7 @@
 </template>
   
 <script setup>
-import Search from '../components/Search.vue'
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 
 const navigation = [
     { name: "Features", href: "/features", current: false },

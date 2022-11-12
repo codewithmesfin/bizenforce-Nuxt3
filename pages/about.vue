@@ -1,6 +1,5 @@
 <template>
     <div>
-
         <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
             <div class="pt-32">
                 <div class=" md:max-w-[70%] mx-auto">
