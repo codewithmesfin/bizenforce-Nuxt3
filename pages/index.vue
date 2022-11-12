@@ -208,8 +208,8 @@
 <script setup>
 import EmailCollectFieldVue from '~/components/EmailCollectField.vue';
 const integrations = [
-  '../assets/aws.png',
-  '../assets/ggl.png',
+  '~/assets/aws.png',
+  '~/assets/ggl.png',
   '../assets/mailchimp.jpeg',
   '../assets/fb.png',
   '../assets/twilio.png',
