@@ -32,7 +32,7 @@
                     <div class="xs:w-[100%] md:w-[50%] lg:inset-y-0 lg:right-0 lg:w-1/2">
 
                         <img class="h-56  md:w-full object-cover sm:h-72 md:h-96 lg:w-full min-h-[550px]"
-                            src="https://assets-global.website-files.com/62226180d38a78472cd35dd2/62828a4c7c43086d0472fdc5_revcarto_pclub.webp"
+                            src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/09/how-to-plan-a-sustainable-b2b-media-strategy-in-a-recession-5f71be832df0f-1280x720.png"
                             alt="" />
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                             Featured Stories
                         </h1>
                         <img class="h-56  md:w-full object-cover sm:h-72 md:h-96 lg:w-full min-h-[550px]"
-                            src="https://lh5.googleusercontent.com/p/AF1QipMZQadhbcpIDbq5UggmLcr6N5XPbGp4ZHDNNY83=w600-h650-p-k-no"
+                            src="https://www.nestle.com/sites/default/files/nescafe-plan-woman-coffee-banner.jpg"
                             alt="" />
                     </div>
                     <div class="md:max-w-[70%]  mx-auto xs:w-[100%] md:w-[50%] ">
