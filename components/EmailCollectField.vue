@@ -10,10 +10,10 @@
             </button>
         </div>
         <div class="md:hidden">
-           <div class="py-2">
-            <input placeholder="Business email"
-                class="border p-2.5 text-center w-full px-5 rounded-full  focus:ring-0 focus:outline-none" />
-           </div>
+            <div class="py-2">
+                <input placeholder="Business email"
+                    class="border p-2.5 text-center w-full px-5 rounded-full  focus:ring-0 focus:outline-none" />
+            </div>
             <button
                 class="inline-block my-3 w-full shadow-xl px-4 py-2.5 rounded-full bg-blue-600 px-4  text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-blue-600 ">
                 Get started free
