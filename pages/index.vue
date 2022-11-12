@@ -14,20 +14,20 @@
             ">
           <div class="sm:text-center lg:text-left">
             <h1 class="
-                  text-2xl font-sans
+                  text-4xl font-sans
                   md:text-7xl
                   font-extrabold
-                  text-center md:text-left
+                  text-center md:text-left 
                 ">
-              <p class="text-gray-900">
+              <span class="text-gray-900">
                 The World's Best
-              </p>
-              <p class="
+              </span>
+              <span class="
                 text-blue-600 py-1
               ">
-                Sales Leads®</p>
+                Sales Leads®</span>
             </h1>
-            <p class="py-4 text-gray-600 text-lg md:text-xl">
+            <p class="py-4 text-gray-600   text-center md:text-left  text-lg md:text-xl">
               Our sales software finds verified cell phones, emails, and direct dials for anyone you need to sell to.
               Get 50 free credits with no credit card down and discover why 300,000+ companies use Seamless.AI to grow
               their business. <NuxtLink class="text-blue-600" to="/learn-more">Learn More ...</NuxtLink>
