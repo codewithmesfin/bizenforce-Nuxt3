@@ -1,17 +1,17 @@
 <template>
     <div>
         <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
-            <div class="py-12">
+            <div class="py-32 md:py-12">
                 <div class="md:flex justify-between items-center md:space-x-10">
                     <div class="md:max-w-[70%]  mx-auto xs:w-[100%] md:w-[50%] ">
                         <h1 class="
-                        text-2xl font-sans
+                        text-4xl font-sans
                         md:text-6xl
-                        font-extrabold
+                        font-extrabold text-center md:text-left
                         ">
                             Prospecting Made Simpler
                         </h1>
-                        <p class="py-4  text-gray-600 text-lg md:text-xl">
+                        <p class="py-4  text-center md:text-left text-gray-600 text-lg md:text-xl">
                             Seamless.AI gives you the ability to connect directly with your ideal customers so you can
                             build pipeline, shorten your sales cycle, and close more deals at scale.
                         </p>
@@ -61,7 +61,6 @@
                 </div>
             </div>
         </section>
-
         <section class="md:max-w-7xl pt-12 justify-center w-[100%] px-4  mx-auto">
             <div class="">
                 <div class=" md:max-w-[70%] mx-auto">
@@ -71,7 +70,7 @@
                   font-extrabold
                   text-center
                 ">
-                Accuracy You Can Count On
+                        Accuracy You Can Count On
                     </h1>
                     <p class="py-4 text-center text-gray-600 text-lg md:text-xl">
                         Fuel your GTM engine with highly accurate B2B cell phones, email addresses and direct dials.
@@ -92,7 +91,7 @@
                         Reach us now
                     </RouterLink>
                 </div>
-               
+
             </div>
         </section>
 
@@ -105,7 +104,7 @@
                   font-extrabold
                   text-center
                 ">
-                Maximize Activity and Output
+                        Maximize Activity and Output
                     </h1>
                     <p class="py-4 text-center text-gray-600 text-lg md:text-xl">
                         Easily build pipeline and discover target accounts with powerful firmographic filters and
@@ -148,18 +147,18 @@ const topFeatures = [
         subtitle: "A.I. recommendations continuously finds prospective buyers so you can proactively reach out."
     }
 ]
-const topFeatures2=[
-{
-    title:"Connect Direcly to Professonals",
-    subtitle:"Access contact and company profiles complete with verified emails and cell phones."
-},
-{
-    title:"Real-Time Data Verification",
-    subtitle:"We use AI and machine learning to research and verify data on millions of people and companies in real-time."
-},
-{
-    title:"Know Everything About Your Prospects",
-    subtitle:"Get hidden intelligence to determine your buyer’s needs to shape the right messaging before reaching out."
-}
+const topFeatures2 = [
+    {
+        title: "Connect Direcly to Professonals",
+        subtitle: "Access contact and company profiles complete with verified emails and cell phones."
+    },
+    {
+        title: "Real-Time Data Verification",
+        subtitle: "We use AI and machine learning to research and verify data on millions of people and companies in real-time."
+    },
+    {
+        title: "Know Everything About Your Prospects",
+        subtitle: "Get hidden intelligence to determine your buyer’s needs to shape the right messaging before reaching out."
+    }
 ]
 </script>
