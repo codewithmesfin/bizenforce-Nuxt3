@@ -72,7 +72,7 @@ const navigation = [
     { name: "Case Studies", href: "/case-studies", current: false },
     { name: "Services", href: "/services", current: false },
     { name: "About us", href: "/about", current: false },
-    { name: "Testimonials", href: "/testimonials", current: false },
+    { name: "Careers", href: "/careers", current: false },
     { name: "Support", href: "/support", current: false }
 ]
 </script>
