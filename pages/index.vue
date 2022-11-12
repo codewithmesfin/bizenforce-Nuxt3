@@ -30,7 +30,7 @@
             <p class="py-4 text-gray-600   text-center md:text-left  text-lg md:text-xl">
               Our sales software finds verified cell phones, emails, and direct dials for anyone you need to sell to.
               Get 50 free credits with no credit card down and discover why 300,000+ companies use Seamless.AI to grow
-              their business. <NuxtLink class="text-blue-600" to="/learn-more">Learn More ...</NuxtLink>
+              their business. <NuxtLink class="text-blue-600" to="/learn-more">Learn More</NuxtLink>
             </p>
             <div>
               <section>
@@ -182,7 +182,7 @@
           <p class="py-4 text-center text-gray-600 text-lg md:text-xl">
             Let us know the problems in your business, we will setup a discussion session, once we clearly understand
             your business rules and problems , we will come up with an affordable software solution...
-            <NuxtLink class="text-blue-600" to="/learn-more">Learn More ...</NuxtLink>
+            <NuxtLink class="text-blue-600" to="/learn-more">Learn More</NuxtLink>
           </p>
         </div>
         <div class="md:flex md:justify-evenly">
