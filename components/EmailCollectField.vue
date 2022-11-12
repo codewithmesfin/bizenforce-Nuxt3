@@ -9,7 +9,7 @@
                 <span class="text-blue-200" aria-hidden="true">&rarr;</span>
             </button>
         </div>
-        <div class="">
+        <div class="md:hidden">
            <div class="py-2">
             <input placeholder="Business email"
                 class="border p-2.5 text-center w-full px-5 rounded-full  focus:ring-0 focus:outline-none" />

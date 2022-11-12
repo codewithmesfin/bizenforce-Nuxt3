@@ -125,7 +125,7 @@
                     </RouterLink>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <img src="~/assets/ft" alt="" class="h-full w-full max-h-[500px]">
+                    <img src="~/assets/ft3.png" alt="" class="h-full w-full max-h-[500px]">
                 </div>
             </div>
         </section>
