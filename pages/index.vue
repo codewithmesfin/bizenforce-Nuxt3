@@ -118,7 +118,7 @@
 
 
     <section>
-      <div class="md:max-w-7xl justify-center w-[100%] py-4 px-4  mt-6 mx-auto">
+      <div class="md:max-w-7xl w-[100%] py-4 px-4  mt-6 mx-auto">
         <div class="md:flex md:space-x-6 justify-between">
           <div v-for="i in 4" :key="i" class="cursor-pointer py-3">
             <div class="max-w-sm rounded-xl overflow-hidden shadow-xl border border-gray-100">
