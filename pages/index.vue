@@ -34,7 +34,7 @@
             </p>
             <div>
               <section>
-               <EmailCollectFieldVue/>
+                <EmailCollectFieldVue />
               </section>
               <section class="py-5">
                 <div class="flex justify-between items-center">
@@ -116,7 +116,7 @@
     </section>
 
 
-   
+
     <section>
       <div class="md:max-w-7xl justify-center w-[100%] py-4 px-4  mt-6 mx-auto">
         <div class="md:flex md:space-x-6 justify-between">
@@ -144,7 +144,7 @@
       </div>
     </section>
 
-   
+
     <section>
       <div class="md:max-w-7xl justify-center w-[100%] py-4 px-4 pt-12 mx-auto">
         <div class="md:flex md:space-x-10">
@@ -167,7 +167,7 @@
       </div>
     </section>
 
-    
+
     <section class="bg-[#edf2f7] pt-6 pb-12">
       <div class="md:max-w-7xl justify-center w-[100%] py-4 px-4  mt-6 mx-auto">
         <div class=" md:max-w-[70%] mx-auto">
@@ -200,23 +200,30 @@
           </div>
         </div>
       </div>
-    </section> 
+    </section>
 
   </div>
 </template>
 
 <script setup>
 import EmailCollectFieldVue from '~/components/EmailCollectField.vue';
+import aws from '~/assets/aws.png'
+import ggl from '~/assets/ggl.png'
+import mainchimp from '~/assets/mailchimp.jpeg'
+import fb from '~/assets/fb.png'
+import twilio from '~/assets/twilio.png'
+import salesforce from '~/assets/salesforce.png'
+import linkedin from '~/assets/linkedin.png'
+import instagram from '~/assets/instagram.jpeg'
+import sai from '~/assets/sai.png'
 const integrations = [
-  '../assets/aws.png',
-  '../assets/ggl.png',
-  '../assets/mailchimp.jpeg',
-  '../assets/fb.png',
-  '../assets/twilio.png',
-  '../assets/salesforce.png',
-  '../assets/linkedin.png',
-  '../assets/instagram.jpeg',
-  '../assets/sai.png',
+  aws,
+  ggl,
+  mainchimp,
+  fb,
+  twilio,
+  salesforce,
+  linkedin, instagram, sai
 ]
 
 </script>
@@ -230,5 +237,4 @@ const integrations = [
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 </style>

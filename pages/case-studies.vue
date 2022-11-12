@@ -92,7 +92,8 @@
                             <div>
                                 <h1 class="text-xl md:text-4xl font-extrabold">Tesfa Mergia</h1>
                                 <h1 class="text-lg ">Chief Executive Officer</h1>
-                                <a target="_blank" class="text-blue-600" href="https://www.tesfacoffee.com/">Visit https://www.tesfacoffee.com</a>
+                                <a target="_blank" class="text-blue-600" href="https://www.tesfacoffee.com/">Visit
+                                    https://www.tesfacoffee.com</a>
                             </div>
                             <div>
                                 <img class="h-32 w-32" src="https://www.tesfacoffee.com/img/logo.7cd9d40b.jpg" alt="">
@@ -107,15 +108,24 @@
 </template>
 
 <script setup>
+import aws from '~/assets/aws.png'
+import ggl from '~/assets/ggl.png'
+import mainchimp from '~/assets/mailchimp.jpeg'
+import fb from '~/assets/fb.png'
+import twilio from '~/assets/twilio.png'
+import salesforce from '~/assets/salesforce.png'
+import linkedin from '~/assets/linkedin.png'
+import instagram from '~/assets/instagram.jpeg'
+import sai from '~/assets/sai.png'
 const integrations = [
-    '../assets/aws.png',
-    '../assets/ggl.png',
-    '../assets/mailchimp.jpeg',
-    '../assets/fb.png',
-    '../assets/twilio.png',
-    '../assets/salesforce.png',
-    '../assets/linkedin.png',
-    '../assets/instagram.jpeg',
-    '../assets/sai.png',
+   aws,
+    ggl,
+    mainchimp,
+    fb,
+    twilio,
+    salesforce,
+    linkedin,
+    instagram,
+    sai
 ]
 </script>
