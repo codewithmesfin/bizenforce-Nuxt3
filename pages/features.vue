@@ -1,8 +1,8 @@
 <template>
     <div>
         <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
-            <div class="">
-                <div class="flex justify-between items-center md:space-x-10">
+            <div class="py-12">
+                <div class="md:flex justify-between items-center md:space-x-10">
                     <div class="md:max-w-[70%]  mx-auto xs:w-[100%] md:w-[50%] ">
                         <h1 class="
                         text-2xl font-sans
@@ -30,7 +30,7 @@
         </section>
         <section class="md:max-w-7xl pt-8 justify-center w-[100%] px-4  mx-auto">
             <div class="">
-                <div class=" md:max-w-[70%] mx-auto">
+                <div class="md:max-w-[70%] mx-auto">
                     <h1 class="
                   text-2xl font-sans
                   md:text-6xl
@@ -45,7 +45,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex justify-between md:space-x-10">
+            <div class="md:flex justify-between md:space-x-10">
                 <div class="w-full md:w-1/3">
                     <div v-for="(item, i) in topFeatures" :key="i" class="py-2">
                         <h1 class="text-blue-600 font-bold text-xl md:text-2xl py-2">{{ item.title }} </h1>
@@ -78,7 +78,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex justify-between md:space-x-20">
+            <div class="md:flex justify-between md:space-x-20">
                 <div class="w-full md:w-1/2">
                     <img src="~/assets/ft2.png" alt="" class="h-full w-full max-h-[500px]">
                 </div>
@@ -113,7 +113,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex justify-between md:space-x-10">
+            <div class="md:flex justify-between md:space-x-10">
                 <div class="w-full md:w-1/3">
                     <div v-for="(item, i) in topFeatures" :key="i" class="py-2">
                         <h1 class="text-blue-600 font-bold text-xl md:text-2xl py-2">{{ item.title }} </h1>
@@ -125,7 +125,7 @@
                     </RouterLink>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <img src="~/assets/ft3.png" alt="" class="h-full w-full max-h-[500px]">
+                    <img src="~/assets/ft" alt="" class="h-full w-full max-h-[500px]">
                 </div>
             </div>
         </section>

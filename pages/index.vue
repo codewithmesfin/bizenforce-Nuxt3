@@ -2,7 +2,7 @@
 <template>
   <div>
     <section>
-      <div class="md:flex ml-auto  md:max-w-[94%] pt-16">
+      <div class="md:flex md:ml-auto w-full  md:max-w-[94%] pt-16">
         <main class="
               mx-auto
               max-w-[100%]
@@ -44,28 +44,28 @@
                 </div>
               </section>
               <section>
-                <div class="flex justify-between">
+                <div class="flex justify-evenly md:justify-between">
                   <button
-                    class=" flex  items-center rounded-lg px-4 py-2.5 text-base text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                    class=" flex items-center rounded-lg px-4 py-2.5 text-base text-gray-900 md:ring-1 md:ring-gray-900/10 hover:ring-gray-900/20">
                     <img src="~/assets/google.png" alt="google" class="h-6 w-6">
-                    <span class="pl-2">Join with Google</span>
+                    <span class="pl-2 hidden md:block">Join with Google</span>
                   </button>
                   <button
-                    class=" flex  items-center rounded-lg px-4 py-2.5 text-base text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                    class=" flex  items-center rounded-lg px-4 py-2.5 text-base text-gray-900 md:ring-1 md:ring-gray-900/10 hover:ring-gray-900/20">
                     <img src="~/assets/linkedin.png" alt="google" class="h-6 w-6">
-                    <span class="pl-2">Join with Linkedin</span>
+                    <span class="pl-2 hidden md:block">Join with Linkedin</span>
                   </button>
                   <button
-                    class=" flex  items-center rounded-lg px-4 py-2.5 text-base text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                    class=" flex  items-center rounded-lg px-4 py-2.5 text-base text-gray-900 md:ring-1 md:ring-gray-900/10 hover:ring-gray-900/20">
                     <img src="~/assets/facebook.png" alt="google" class="h-6 w-6">
-                    <span class="pl-2">Join with Facebook</span>
+                    <span class="pl-2 hidden md:block">Join with Facebook</span>
                   </button>
                 </div>
               </section>
             </div>
           </div>
         </main>
-        <div class="xs:w-[100%]
+        <div class="xs:w-[100%] hidden md:block
              md:w-[50%] lg:inset-y-0 lg:right-0 lg:w-1/2">
 
           <img class="h-56  md:w-full object-cover sm:h-72 md:h-96 lg:w-full min-h-[550px]" src="~/assets/main-bg.webp"
@@ -76,10 +76,17 @@
 
     <section class="py-12">
       <h1 class="text-center text-xl font-sans font-semibold">Integrate 1000+ Seamless APIs</h1>
-      <div class="md:max-w-7xl flex justify-center w-[100%] py-4 px-4  mt-6 mx-auto">
+      <div class="hidden md:max-w-7xl md:flex justify-center w-[100%] py-4 px-4  mt-6 mx-auto">
         <div class="grid grid-flow-col auto-cols-max gap-6 items-center">
           <div v-for="(img, i) in integrations" :key="i">
             <img :src="img" alt="" class="max-h-[40px] w-[75%]">
+          </div>
+        </div>
+      </div>
+      <div class="md:hidden md:max-w-7xl w-[100%] py-4 px-4  mt-6 mx-auto">
+        <div class="grid grid-cols-3 gap-6 items-center">
+          <div v-for="(img, i) in integrations" :key="i">
+            <img :src="img" alt="" class="max-h-[40px] max-w-[100px]">
           </div>
         </div>
       </div>
@@ -108,10 +115,12 @@
       </div>
     </section>
 
+
+   
     <section>
       <div class="md:max-w-7xl justify-center w-[100%] py-4 px-4  mt-6 mx-auto">
-        <div class="flex space-x-6 justify-between">
-          <div v-for="i in 4" :key="i" class="cursor-pointer">
+        <div class="md:flex md:space-x-6 justify-between">
+          <div v-for="i in 4" :key="i" class="cursor-pointer py-3">
             <div class="max-w-sm rounded-xl overflow-hidden shadow-xl border border-gray-100">
               <img class="w-full h-32 "
                 src="https://kinsta.com/de/wp-content/uploads/sites/5/2019/11/woocommerce-crm-1024x512.png"
@@ -135,10 +144,11 @@
       </div>
     </section>
 
+   
     <section>
       <div class="md:max-w-7xl justify-center w-[100%] py-4 px-4 pt-12 mx-auto">
-        <div class="flex space-x-10">
-          <div class="w-1/2">
+        <div class="md:flex md:space-x-10">
+          <div class="w-full md:w-1/2">
             <h2 class="font-semibold text-blue-500 py-3">SALES PROSPECTING SOLUTION</h2>
             <h1 class="text-xl md:text-5xl py-2 font-extrabold">Get in Front of the Right Sales Prospects</h1>
             <p class="py-2 text-lg">
@@ -150,13 +160,14 @@
               Contact us now
             </RouterLink>
           </div>
-          <div class="w-1/2">
+          <div class="w-full md:w-1/2">
             <img src="~/assets/sol.png" alt="">
           </div>
         </div>
       </div>
     </section>
 
+    
     <section class="bg-[#edf2f7] pt-6 pb-12">
       <div class="md:max-w-7xl justify-center w-[100%] py-4 px-4  mt-6 mx-auto">
         <div class=" md:max-w-[70%] mx-auto">
@@ -174,22 +185,22 @@
             <NuxtLink class="text-blue-600" to="/learn-more">Learn More ...</NuxtLink>
           </p>
         </div>
-        <div class="flex justify-evenly">
-          <div class="w-[30%] shadow bg-white border border-gray-200 p-10 cursor-pointer">
+        <div class="md:flex md:justify-evenly">
+          <div class="md:w-[30%] my-3 shadow bg-white border border-gray-200 p-10 cursor-pointer">
             <h1 class="text-center text-[#2196f3] text-6xl font-extrabold">1</h1>
             <h1 class="text-center text-[#2196f3] text-xl font-semibold">Tell us your problems</h1>
           </div>
-          <div class="w-[30%] shadow bg-white border border-gray-200 p-10 cursor-pointer">
+          <div class="md:w-[30%] my-3 shadow bg-white border border-gray-200 p-10 cursor-pointer">
             <h1 class="text-center text-black text-6xl font-extrabold">2</h1>
             <h1 class="text-center text-black text-xl font-semibold">Let us create the right solution</h1>
           </div>
-          <div class="w-[30%] shadow bg-white border border-gray-200 p-10 cursor-pointer">
+          <div class="md:w-[30%] my-3 shadow bg-white border border-gray-200 p-10 cursor-pointer">
             <h1 class="text-center text-green-500 text-6xl font-extrabold">3</h1>
             <h1 class="text-center text-green-500 text-xl font-semibold">Enjoy success in your business</h1>
           </div>
         </div>
       </div>
-    </section>
+    </section> 
 
   </div>
 </template>

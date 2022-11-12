@@ -1,8 +1,8 @@
 <template>
     <div>
         <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
-            <div class="pt-12">
-                <div class="flex justify-between items-center md:space-x-10">
+            <div class="pt-24 px-5">
+                <div class="md:flex justify-between items-center md:space-x-10">
                     <div class="md:max-w-[70%]  mx-auto xs:w-[100%] md:w-[50%] ">
                         <h1 class="text-blue-600 font-bold py-3 text-lg">CASE STUDIES</h1>
                         <h1 class="
@@ -27,10 +27,8 @@
                                 Read Stories
                             </RouterLink>
                         </div>
-
                     </div>
-                    <div class="xs:w-[100%] md:w-[50%] lg:inset-y-0 lg:right-0 lg:w-1/2">
-
+                    <div class="xs:w-[100%] md:w-[50%] lg:inset-y-0 lg:right-0 lg:w-1/2 hidden md:block">
                         <img class="h-56  md:w-full object-cover sm:h-72 md:h-96 lg:w-full min-h-[550px]"
                             src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/09/how-to-plan-a-sustainable-b2b-media-strategy-in-a-recession-5f71be832df0f-1280x720.png"
                             alt="" />
@@ -41,15 +39,15 @@
 
         <section class="md:max-w-7xl justify-center w-[100%] px-4 py-10 mx-auto">
             <div>
-                <div class="flex items-center md:space-x-10">
-                    <div class="w-[40%]">
+                <div class="md:flex px-3 items-center md:space-x-10">
+                    <div class="w-full md:w-[40%]">
                         <h1 class="text-xl md:text-3xl font-semibold">
                             Working closely with the highest tech companies trusted
                             by the world.
                         </h1>
                     </div>
-                    <div class="w-[60%]">
-                        <div class="grid grid-cols-5 gap-4 py-5">
+                    <div class="w-full md:w-[60%]">
+                        <div class="grid grid-cols-3 md:grid-cols-5 gap-4 py-5">
                             <div v-for="(img, i) in integrations" :key="i">
                                 <img :src="img" alt="" class="max-h-[30px] rounded max-w-[100px]">
                             </div>
@@ -61,7 +59,7 @@
 
         <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
             <div class="pt-12">
-                <div class="flex justify-between items-center md:space-x-10">
+                <div class="md:flex justify-between items-center md:space-x-10">
                     <div class="xs:w-[100%] md:w-[50%] lg:inset-y-0 lg:right-0 lg:w-1/2">
                         <h1 class="
                         text-2xl font-sans
@@ -70,11 +68,11 @@
                         ">
                             Featured Stories
                         </h1>
-                        <img class="h-56  md:w-full object-cover sm:h-72 md:h-96 lg:w-full min-h-[550px]"
+                        <img class="h-56  md:w-full object-cover sm:h-72 md:h-96 lg:w-full md:min-h-[550px]"
                             src="https://www.nestle.com/sites/default/files/nescafe-plan-woman-coffee-banner.jpg"
                             alt="" />
                     </div>
-                    <div class="md:max-w-[70%]  mx-auto xs:w-[100%] md:w-[50%] ">
+                    <div class="md:max-w-[70%] mx-auto xs:w-[100%] md:w-[50%] ">
                         <h1
                             class="text-blue-600 text-center rounded-full w-[150px] font-semibold p-1 text-sm border border-gray-200">
                             Coffee Exporter</h1>

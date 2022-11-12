@@ -20,13 +20,14 @@
                 </div>
             </div>
         </section>
-        <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
+       <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
             <div class="w-full flex justify-end md:py-3">
                 <img class="w-full h-full rounded-xl"
                     src="https://assets-global.website-files.com/62226180d38a78472cd35dd2/6262ed5d6d99d9377c1c8b3e_Seamless_Leadership-Meeting.webp"
                     alt="">
             </div>
         </section>
+        
         <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto md:y-10 pb-10">
             <div class="pt-12 mx-auto">
                 <div class="md:flex justify-between md:space-x-10">
@@ -59,7 +60,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
 
         <section>
             <div class=" pt-12 mx-auto md:px-2 sm:px-6 lg:px-8 ">
@@ -90,7 +91,8 @@
                 </div>
             </div>
         </section>
-        <section class="bg-black bg2 py-10">
+       
+        <section class="bg-black bg2 py-10 mt-3">
             <div class="md:max-w-[60%] px-5  md:pt-12 mx-auto md:px-2 sm:px-6 lg:px-8 ">
                 <div>
                     <h2 class="text-lg text-gray-100 font-semibold py-2 text-center">OUR MISSION</h2>
@@ -140,7 +142,8 @@
         </section>
 
 
-        <section class="bg-[#edf2f7] pt-6 pb-12">
+        
+            <section class="bg-[#edf2f7] pt-6 pb-12">
             <div class="md:max-w-7xl justify-center w-[100%] py-4 px-4  mt-6 mx-auto">
                 <div class=" md:max-w-[70%] mx-auto">
                     <h2 class="text-lg text-blue-600 font-semibold py-2 text-center">CORE VALUES</h2>
@@ -148,7 +151,7 @@
                         What We Stand For
                     </h2>
                 </div>
-                <div class="grid grid-cols-3 gap-4 py-5">
+                <div class="grid md:grid-cols-3 gap-4 py-5">
                     <div class="w-full px-3" v-for="(item, i) in values" :key="i">
                         <div class="h-full shadow rounded-xl bg-white border border-gray-200 p-5 cursor-pointer">
                             <div class="flex justify-center">
@@ -161,7 +164,7 @@
                 </div>
             </div>
         </section>
-
+ 
         <section class="bg-black bg2 py-10">
             <div class="md:max-w-[60%] px-5  md:pt-12 mx-auto md:px-2 sm:px-6 lg:px-8 ">
                 <div>
@@ -200,33 +203,35 @@
                         </div>
                     </div>
                     <div class="w-full md:w-1/2 flex justify-end md:py-3">
-                        <img class="w-full h-full  rounded-xl" src="https://assets-global.website-files.com/62226180d38a78472cd35dd2/6262faa876c2fcf9f4823ddf_culture-image9.webp" alt="">
+                        <img class="w-full h-full  rounded-xl"
+                            src="https://assets-global.website-files.com/62226180d38a78472cd35dd2/6262faa876c2fcf9f4823ddf_culture-image9.webp"
+                            alt="">
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="bg-[#edf2f7] py-6">
-      <div class="md:max-w-7xl justify-center w-[100%] py-4 px-4  mt-6 mx-auto">
-        <div class=" md:max-w-[70%] mx-auto">
-            <h2 class="text-lg text-blue-600 font-semibold py-2 text-center">VISIION</h2>
-          <h1 class="
+            <div class="md:max-w-7xl justify-center w-[100%] py-4 px-4  mt-6 mx-auto">
+                <div class=" md:max-w-[70%] mx-auto">
+                    <h2 class="text-lg text-blue-600 font-semibold py-2 text-center">VISIION</h2>
+                    <h1 class="
                   text-2xl font-sans
                   md:text-6xl
                   font-extrabold
                   text-center
                 ">
-                Join the Rocket Ship!
-          </h1>
-        </div>
-        <div class="py-10 flex justify-center">
-            <RouterLink to="/auth/signin"
-              class="inline-block shadow-xl my-3 rounded-lg bg-blue-600 px-6 py-2.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-blue-600 hover:bg-blue-700 hover:ring-blue-700">
-             See Openings
-            </RouterLink>
-        </div>
-      </div>
-    </section>
+                        Join the Rocket Ship!
+                    </h1>
+                </div>
+                <div class="py-10 flex justify-center">
+                    <RouterLink to="/auth/signin"
+                        class="inline-block shadow-xl my-3 rounded-lg bg-blue-600 px-6 py-2.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-blue-600 hover:bg-blue-700 hover:ring-blue-700">
+                        See Openings
+                    </RouterLink>
+                </div>
+            </div>
+        </section> 
 
 
     </div>

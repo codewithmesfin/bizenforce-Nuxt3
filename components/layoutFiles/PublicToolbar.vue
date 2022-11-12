@@ -4,12 +4,12 @@
         <div class="mx-auto  max-w-[90%] px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-20 items-center justify-between">
 
-                <div class="flex flex-1 items-center justify-center sm:justify-start">
+                <div class="md:flex md:flex-1 md:items-center md:justify-center sm:justify-start">
 
                     <div class="flex-shrink-0 cursor-pointer flex items-center">
                         <RouterLink to="/" class="flex items-center">
                             <img class="h-8 w-auto" src="~/assets/logo.png" alt="Workflow" />
-                            <span class="hidden md:block text-[#0065f2] text-2xl font-extrabold pl-3">BizEnforce</span>
+                            <span class="text-[#0065f2] text-2xl font-extrabold pl-3">BizEnforce</span>
                         </RouterLink>
                     </div>
 
@@ -91,7 +91,7 @@
 </template>
   
 <script setup>
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
+import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 
 const navigation = [
     { name: "Features", href: "/features", current: false },
