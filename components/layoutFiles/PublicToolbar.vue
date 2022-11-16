@@ -52,14 +52,6 @@
                     :aria-current="item.current ? 'page' : undefined">{{ item.name }}
                 </DisclosureButton>
             </div>
-            <div class="items-center flex justify-between mx-4 mb-8">
-                <!-- Register -->
-
-                <DisclosureButton href="/auth/signup"
-                    class=" w-[50%] mr-4 shadow py-2 rounded-xl text-center text-white bg-blue-600">
-                    Get started free
-                </DisclosureButton>
-            </div>
         </DisclosurePanel>
     </Disclosure>
 </template>
