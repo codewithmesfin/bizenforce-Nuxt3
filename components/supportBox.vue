@@ -2,7 +2,7 @@
     <div class="w-full md:w-[40%]">
         <div class="md:shadow-lg rounded p-5 md:p-10  md:border border-gray-100">
             <div class="mb-5">
-                <h1 class="text-2xl md:4xl font-bold">Let us know how can we support you!</h1>
+                <h1 class="text-2xl md:4xl font-bold text-center md:text-left">Let us know how can we support you!</h1>
             </div>
             <div class="py-2">
                 <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Full
