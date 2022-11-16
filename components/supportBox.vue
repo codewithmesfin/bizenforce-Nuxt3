@@ -1,6 +1,6 @@
 <template>
     <div class="w-full md:w-[40%]">
-        <div class="md:shadow-lg rounded p-10  border border-gray-100">
+        <div class="md:shadow-lg rounded p-3 md:p-10  border border-gray-100">
             <div class="mb-5">
                 <h1 class="text-2xl md:4xl font-bold">Let us know how can we support you!</h1>
             </div>

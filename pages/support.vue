@@ -3,7 +3,7 @@
           <section class=" pb-10">
               <div class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
                   <div >
-                      <div class="md:flex space-x-10 hidden md:block">
+                      <div class="md:flex md:space-x-10 hidden md:block">
                           <TipsList />
                           <SupportBox />
                       </div>
