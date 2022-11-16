@@ -20,14 +20,14 @@
                 </div>
             </div>
         </section>
-       <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
+        <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
             <div class="w-full flex justify-end md:py-3">
                 <img class="w-full h-full rounded-xl"
                     src="https://assets-global.website-files.com/62226180d38a78472cd35dd2/6262ed5d6d99d9377c1c8b3e_Seamless_Leadership-Meeting.webp"
                     alt="">
             </div>
         </section>
-        
+
         <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto md:y-10 pb-10">
             <div class="pt-12 mx-auto">
                 <div class="md:flex justify-between md:space-x-10">
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
 
         <section>
             <div class=" pt-12 mx-auto md:px-2 sm:px-6 lg:px-8 ">
@@ -91,7 +91,7 @@
                 </div>
             </div>
         </section>
-       
+
         <section class="bg-black bg2 py-10 mt-3">
             <div class="md:max-w-[60%] px-5  md:pt-12 mx-auto md:px-2 sm:px-6 lg:px-8 ">
                 <div>
@@ -142,8 +142,8 @@
         </section>
 
 
-        
-            <section class="bg-[#edf2f7] pt-6 pb-12">
+
+        <section class="bg-[#edf2f7] pt-6 pb-12">
             <div class="md:max-w-7xl justify-center w-[100%] py-4 px-4  mt-6 mx-auto">
                 <div class=" md:max-w-[70%] mx-auto">
                     <h2 class="text-lg text-blue-600 font-semibold py-2 text-center">CORE VALUES</h2>
@@ -164,7 +164,7 @@
                 </div>
             </div>
         </section>
- 
+
         <section class="bg-black bg2 py-10">
             <div class="md:max-w-[60%] px-5  md:pt-12 mx-auto md:px-2 sm:px-6 lg:px-8 ">
                 <div>
@@ -231,7 +231,7 @@
                     </RouterLink>
                 </div>
             </div>
-        </section> 
+        </section>
 
 
     </div>

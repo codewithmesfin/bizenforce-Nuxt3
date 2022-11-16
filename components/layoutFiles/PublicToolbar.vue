@@ -22,9 +22,9 @@
                 </div>
                 <div class="flex items-center space-x-5 hidden md:flex">
                     <RouterLink to="/auth/signin"
-                        class="inline-block shadow-xl rounded-lg bg-blue-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700">
+                        class="inline-block shadow-xl rounded-lg bg-blue-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-blue-600 hover:bg-blue-700 hover:ring-blue-700">
                         Get started free
-                        <span class="text-indigo-200" aria-hidden="true">&rarr;</span>
+                        <span class="text-blue-200" aria-hidden="true">&rarr;</span>
                     </RouterLink>
                 </div>
                 <div class=" right-0  flex items-end sm:hidden">
@@ -71,8 +71,9 @@ const navigation = [
     { name: "Features", href: "/features", current: false },
     { name: "Case Studies", href: "/case-studies", current: false },
     { name: "Services", href: "/services", current: false },
+    { name: "Our Process", href: "/our-processes", current: false },
     { name: "About us", href: "/about", current: false },
-    { name: "Careers", href: "/careers", current: false },
+    { name: "Careers", href: "/career", current: false },
     { name: "Support", href: "/support", current: false }
 ]
 </script>
