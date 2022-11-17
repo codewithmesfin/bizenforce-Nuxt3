@@ -23,6 +23,7 @@
 
                         <img class="h-56  md:w-full object-contain sm:h-72 md:h-96 lg:w-full min-h-[550px]"
                             src="~/assets/feature.png"
+                            loading="lazy" 
                             alt="" />
                     </div>
                 </div>
