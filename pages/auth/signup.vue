@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="hidden md:block md:w-1/2">
-                    <h2 class="text-lg text-gray-100 font-semibold py-2 r">Sign in to BizEnforce</h2>
+                    <h2 class="text-lg text-gray-100 font-semibold py-2 r">Sign up to BizEnforce</h2>
                     <h2 class="text-3xl font-extrabold text-white md:text-6xl py-3">
                         To help the world connect to opportunity and positively impact billions.
                     </h2>
