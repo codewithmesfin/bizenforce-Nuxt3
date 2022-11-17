@@ -5,7 +5,7 @@
                 <div class="md:shadow-xs md:rounded bg-white w-full items-center md:w-[40%] p-10">
                     <div class="py-2">
                         <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                          Full Name
+                            Full Name
                         </label>
                         <input type="text"
                             class="bg-white  border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:outline-none block w-full p-2.5 "
@@ -13,7 +13,7 @@
                     </div>
                     <div class="py-2">
                         <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                         Phone Number
+                            Phone Number
                         </label>
                         <input type="text"
                             class="bg-white  border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:outline-none block w-full p-2.5 "
@@ -69,7 +69,7 @@
                         </section>
                         <section class="py-3">
                             <div class="flex justify-between space-x-10">
-                               <p>Already have an account?</p>
+                                <p>Already have an account?</p>
                                 <RouterLink class="text-blue-600" to="/auth/signin">Sign in</RouterLink>
                             </div>
                         </section>
