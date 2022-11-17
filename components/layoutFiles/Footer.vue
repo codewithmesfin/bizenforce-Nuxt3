@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-blue-600 border-t">
+    <div class="bg-blue-600">
       <div class="mx-auto  md:w-[90%] py-12 px-4 sm:px-6">
         <div class="md:flex md:justify-between md:space-x-10">
           <div class="w-[100%]">
