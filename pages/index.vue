@@ -195,8 +195,8 @@
             <h1 class="text-center text-black text-xl font-semibold">Let us create the right solution</h1>
           </div>
           <div class="md:w-[30%] my-3 shadow bg-white border border-gray-200 p-10 cursor-pointer">
-            <h1 class="text-center text-green-500 text-6xl font-extrabold">3</h1>
-            <h1 class="text-center text-green-500 text-xl font-semibold">Enjoy success in your business</h1>
+            <h1 class="text-center text-blue-500 text-6xl font-extrabold">3</h1>
+            <h1 class="text-center text-blue-500 text-xl font-semibold">Enjoy success in your business</h1>
           </div>
         </div>
       </div>
