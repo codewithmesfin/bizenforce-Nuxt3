@@ -131,7 +131,7 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import EmailCollectFieldVue from '~/components/EmailCollectField.vue';
 const topFeatures = [
     {
@@ -161,4 +161,10 @@ const topFeatures2 = [
         subtitle: "Get hidden intelligence to determine your buyer’s needs to shape the right messaging before reaching out."
     }
 ]
+useHead({
+  title: 'Features',
+  meta: [
+    { name: 'description', content: 'Prospecting Made Simpler' }
+  ],
+})
 </script>

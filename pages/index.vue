@@ -225,7 +225,6 @@ const integrations = [
   salesforce,
   linkedin, instagram, sai
 ]
-
 </script>
 
 
