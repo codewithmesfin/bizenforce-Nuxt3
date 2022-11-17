@@ -3,7 +3,7 @@
         <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
             <div class="py-32 md:py-12">
                 <div class="md:flex justify-between items-center md:space-x-10">
-                    <div class="md:max-w-[70%]  mx-auto xs:w-[100%] md:w-[50%] ">
+                    <div class="md:max-w-[70%] mx-auto xs:w-[100%] md:w-[50%] ">
                         <h1 class="
                         text-4xl font-sans
                         md:text-6xl
@@ -20,8 +20,7 @@
                         </section>
                     </div>
                     <div class="xs:w-[100%] md:w-[50%] lg:inset-y-0 lg:right-0 lg:w-1/2">
-
-                        <img class="h-56  md:w-full object-contain sm:h-72 md:h-96 lg:w-full min-h-[550px]"
+                        <img class="h-56 md:w-full object-cover sm:h-72 md:h-96 lg:w-full min-h-[550px]"
                             src="~/assets/feature.png"
                             loading="lazy" 
                             alt="" />
