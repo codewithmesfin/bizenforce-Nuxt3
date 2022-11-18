@@ -53,7 +53,7 @@
                 </DisclosureButton>
                 <DisclosureButton href="/support"
                     className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-blue-600 hover:bg-gray-100">
-                 Get Support
+                 Contact us now
                 </DisclosureButton>
             </div>
         </DisclosurePanel>
