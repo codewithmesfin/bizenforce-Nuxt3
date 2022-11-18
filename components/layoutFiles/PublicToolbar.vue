@@ -64,6 +64,7 @@ const navigation = [
     { name: "Features", href: "/features", current: false },
     { name: "Case Studies", href: "/case-studies", current: false },
     { name: "Services", href: "/services", current: false },
+    { name: "Our Process", href: "/process", current: false },
     { name: "About us", href: "/about", current: false },
     { name: "Careers", href: "/career", current: false },
     { name: "Support", href: "/support", current: false }
