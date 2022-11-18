@@ -17,13 +17,13 @@
                             out the success stories below to see how companies like yours use Seamless.AI to maximize
                             revenue.
                         </p>
-                        <div class="flex space-x-10">
+                        <div class="flex space-x-3 md:space-x-10">
                             <RouterLink to="/auth/signin"
-                                class="inline-block shadow-xl my-3 rounded-lg  px-10 py-2.5  font-semibold leading-7 text-blue-600 shadow-sm  border border-gray-400">
+                                class="inline-block shadow-xl my-3 rounded-lg px-5 md:px-10 py-2.5  font-semibold leading-7 text-blue-600 shadow-sm  border border-gray-400">
                                 Reach us now
                             </RouterLink>
                             <RouterLink to="/auth/signin"
-                                class="inline-block shadow-xl my-3 rounded-lg bg-blue-600 px-10 py-2.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-blue-600 hover:bg-blue-700 hover:ring-blue-700">
+                                class="inline-block shadow-xl my-3 rounded-lg bg-blue-600 px-5 md:px-10 py-2.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-blue-600 hover:bg-blue-700 hover:ring-blue-700">
                                 Read Stories
                             </RouterLink>
                         </div>
