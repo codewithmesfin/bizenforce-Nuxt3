@@ -19,9 +19,9 @@
                     </div>
                     <div class="py-2">
                         <button
-                            class="inline-block my-3 w-full shadow-sm px-4 py-2.5 rounded-lg bg-blue-600 px-4  text-base font-semibold leading-7 text-white ring-1 ring-blue-600 ">
+                            class="inline-block my-3 w-full  px-4 py-2.5 rounded-lg bg-blue-600 px-4  text-base font-semibold leading-6 text-white ring-1 ring-blue-600 ">
                             Sign in
-                            <span class="text-blue-200" aria-hidden="true">&rarr;</span>
+                            <span class="text-blue-200 ml-3" aria-hidden="true">&rarr;</span>
                         </button>
                     </div>
                     <div>
@@ -53,8 +53,10 @@
                         </section>
                         <section class="py-3">
                             <div class="flex justify-between space-x-10">
-                                <RouterLink class="text-blue-600 text-xs md:text-sm" to="/forgot-password">Forgot your password?</RouterLink>
-                                <RouterLink class="text-blue-600 text-xs md:text-sm" to="/auth/signup">Create new account</RouterLink>
+                                <RouterLink class="text-blue-600 text-xs md:text-sm" to="/forgot-password">Forgot your
+                                    password?</RouterLink>
+                                <RouterLink class="text-blue-600 text-xs md:text-sm" to="/auth/signup">Create new
+                                    account</RouterLink>
                             </div>
                         </section>
                     </div>

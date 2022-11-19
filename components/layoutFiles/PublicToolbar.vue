@@ -31,10 +31,10 @@
                     <!-- Mobile menu button-->
                     <DisclosureButton class="inline-flex items-center justify-center rounded-md p-2">
                         <span class="sr-only">Open main menu</span>
-                        <svg v-if="!open" class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5" stroke="black" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        <svg v-if="!open" class="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                                d="M4 6h16M4 12h16m-7 6h7" />
                         </svg>
                         <svg v-else class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -53,7 +53,7 @@
                 </DisclosureButton>
                 <DisclosureButton href="/support"
                     className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-blue-600 hover:bg-gray-100">
-                 Contact us now
+                    Contact us now
                 </DisclosureButton>
             </div>
         </DisclosurePanel>
