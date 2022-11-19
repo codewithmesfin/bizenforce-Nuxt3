@@ -51,7 +51,7 @@
                     :class="[item.current ? 'text-blue-600' : ' text-gray-600 hover:text-blue-500 cursor-pointer transition-colors duration-300', 'block px-3 py-2 rounded-md text-base font-medium']"
                     :aria-current="item.current ? 'page' : undefined">{{ item.name }}
                 </DisclosureButton>
-                <DisclosureButton href="/support"
+                <DisclosureButton as="a" href="/support"
                     className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-blue-600 hover:bg-gray-100">
                     Contact us now
                 </DisclosureButton>
