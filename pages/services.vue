@@ -5,13 +5,13 @@
                 <div>
                     <h2 class="text-lg text-gray-100 font-semibold py-2 text-center">Our Services</h2>
                     <h2 class="text-3xl text-center font-extrabold text-white md:text-6xl py-3">
-                        To help the world connect to opportunity and positively impact billions.
+                        To help the world connect to opportunity and positively impact business.
                     </h2>
                     <p class="text-md md:text-lg text-center font-normal text-white mx-auto py-3">
-                        We’re on a mission to help the world connect to opportunity and positively impact billions…This
-                        starts with our employees. We take great pride in our culture and the team we’ve built. We
-                        embrace open collaboration and creativity. We encourage the iteration of ideas that address the
-                        world’s most complex technical sales challenges.
+                        We’re on a mission to help you connect to opportunity and positively impact business. We'll be
+                        sharing stories, insights, and resources to help you make the most of your work and make a
+                        difference in the world. We're excited to get started, and we hope you are too. Let's make a
+                        difference, together.
                     </p>
                 </div>
             </div>
@@ -19,13 +19,15 @@
         <section class="pb-10 px-3 md:px-0">
             <div class="md:max-w-7xl justify-center w-[100%] md:px-4 mx-auto">
                 <div class="py-6 grid md:grid-cols-2 gap-4">
-                    <div v-for="(item, i) in services" :key="i"  class="py-4 cursor-pointer">
+                    <div v-for="(item, i) in services" :key="i" class="py-4 cursor-pointer">
                         <div class="md:flex md:items-center md:space-x-10">
                             <div class="md:w-1/2">
                                 <img :src="item.img" alt="" class="w-32 md:w-full md:min-w-72 h-32 md:h-72 mx-auto">
                             </div>
                             <div class="md:w-1/2">
-                                <h1 class="font-extrabold text-center md:text-left text-xl md:text-4xl py-3">{{ item.title }} </h1>
+                                <h1 class="font-extrabold text-center md:text-left text-xl md:text-4xl py-3">{{
+                                        item.title
+                                }} </h1>
                                 <p class="text-center md:text-left">{{ item.desc }} </p>
                             </div>
                         </div>

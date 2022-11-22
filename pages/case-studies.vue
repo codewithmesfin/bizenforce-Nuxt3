@@ -10,11 +10,11 @@
                         md:text-6xl
                         font-extrabold
                         ">
-                            See How Our Clients Generate Millions
+                            See How Our Clients Succeed Their Business
                         </h1>
                         <p class="py-4  text-gray-600 text-lg md:text-xl">
-                            Hundreds of thousands of salespeople, marketers, and entrepreneurs trust Seamless.AI. Check
-                            out the success stories below to see how companies like yours use Seamless.AI to maximize
+                            Hundreds of thousands of professionals, marketers, students, and entrepreneurs trust BizEnforce. Check
+                            out the success stories below to see how companies like working with BizEnforce to maximize
                             revenue.
                         </p>
                         <div class="flex space-x-3 md:space-x-10">
@@ -74,7 +74,7 @@
                     </div>
                     <div class="md:max-w-[70%] mx-auto xs:w-[100%] md:w-[50%] ">
                         <h1
-                            class="text-blue-600 text-center rounded-full w-[150px] font-semibold p-1 text-sm border border-gray-200">
+                            class="text-blue-600 mt-3 text-center rounded-full w-[150px] font-semibold p-1 text-sm border border-gray-200">
                             Coffee Exporter</h1>
                         <h1 class="
                         text-2xl font-sans
@@ -84,9 +84,9 @@
                             See How Our Tesfa Mergia Generates Millions
                         </h1>
                         <p class="py-4  text-gray-600 text-lg md:text-xl">
-                            Hundreds of thousands of salespeople, marketers, and entrepreneurs trust Seamless.AI. Check
-                            out the success stories below to see how companies like yours use Seamless.AI to maximize
-                            revenue.
+                          The Awesome team, at BizEnforce is exceptionally professional, creativity, and fruitful.
+                            They helped us to succeed our business "Tesfa Coffee Trade" from smaller road-side cafe to 
+                            giant Coffee experting company.
                         </p>
                         <div class="flex justify-between items-center">
                             <div>

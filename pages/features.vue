@@ -6,7 +6,7 @@
                     <div class="md:max-w-[70%] mx-auto xs:w-[100%] md:w-[50%] ">
                         <h1 class="
                         text-4xl font-sans
-                        md:text-6xl 
+                        md:text-6xl capitalize
                         font-extrabold text-center md:text-left
                         ">
                             Solutions are made simpler with new technology!
