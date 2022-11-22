@@ -7,10 +7,10 @@
                     <p class="text-center text-lg md:text-xl py-3">Unleash your genius and maximize your potential</p>
                 </div>
                 <div class="flex justify-center">
-                    <button
+                    <RouterLink to="/careers"
                         class="inline-block shadow-xl text-lg md:text-xl rounded-lg bg-blue-600 px-4 md:px-10 py-2.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-blue-600 hover:bg-blue-700 hover:ring-blue-700">
                         Apply Now
-                    </button>
+                    </RouterLink>
                 </div>
             </div>
         </section>

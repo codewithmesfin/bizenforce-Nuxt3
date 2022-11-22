@@ -1,6 +1,6 @@
 <template>
     <div class="w-full">
-        <div class="flex items-center rounded-3xl px-5 border border-gray-100">
+        <div class="flex items-center rounded-3xl px-5 bg-white border border-gray-300">
             <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor"
                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
