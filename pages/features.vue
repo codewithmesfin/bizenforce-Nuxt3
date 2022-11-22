@@ -136,7 +136,7 @@ import EmailCollectFieldVue from '~/components/EmailCollectField.vue';
 const topFeatures = [
     {
         title: "Get advice from tech experts.",
-        subtitle: "BizEnforce helps businesses find solutions to their problems. It is rich of professionals in experienced in solving real world problems."
+        subtitle: "BizEnforce helps businesses find solutions to their problems. It is rich of professionals experienced in solving real world problems."
     },
     {
         title: "Make your idea valuable",
