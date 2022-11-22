@@ -19,7 +19,7 @@
                 <div>
                     <h2 class="text-lg text-gray-100 font-semibold py-2 text-center">Our Culture</h2>
                     <h2 class="text-3xl text-center font-extrabold text-white md:text-6xl py-3">
-                        To help the world connect to opportunity and positively impact billions.
+                        To help the world connect to opportunity and positively impact business.
                     </h2>
                     <p class="text-md md:text-lg text-center font-normal text-white mx-auto py-3">
                         We’re on a mission to help the world connect to opportunity and positively impact billions…This
@@ -78,10 +78,10 @@
             <div class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
                 <div class="md:flex justify-evenly items-center md:space-x-10">
                     <h2 class="text-3xl text-center font-extrabold text-white md:text-6xl py-3">
-                        Ready to Join the Rocketship?
+                        Ready to Join the BizEnforce?
                     </h2>
                     <div class="flex justify-center">
-                        <RouterLink to="/careers"
+                        <RouterLink to="/career"
                             class="inline-block shadow-xl text-lg md:text-xl rounded-lg bg-white px-4 md:px-10 py-2.5 text-base font-semibold leading-7 text-blue-600 shadow-sm ring-1 ring-blue-600 hover:bg-gray-100 hover:ring-gray-100">
                             Apply Now
                         </RouterLink>
@@ -116,7 +116,7 @@ const items = [
     {
         img: "https://assets-global.website-files.com/62226180d38a78472cd35dd2/628bd0276ceca42e0a614d75_500X500_careers_clockinhome.svg",
         title: "Clock In From Home",
-        subtitle: "Don’t worry about commuting to an office building or working in a cramped cubicle all day. Seamless is 100% remote, which means you can work from the comfort of your own home."
+        subtitle: "Don’t worry about commuting to an office building or working in a cramped cubicle all day. BizEnforce is 100% remote, which means you can work from the comfort of your own home."
     },
     {
         img: "https://assets-global.website-files.com/62226180d38a78472cd35dd2/628bd02894549c1800018ed9_500X500_careers_balance.svg",
@@ -136,7 +136,7 @@ const items = [
     {
         img: "https://assets-global.website-files.com/62226180d38a78472cd35dd2/628bd027cad89966e9e64149_500X500_careers_teamvalues.svg",
         title: "A Team That Values You",
-        subtitle: "At Seamless your voice is always heard. Instead of executing orders from the top-down, we encourage feedback from everyone and regularly implement changes driven by our employees’ ideas. This all-inclusive approach is what makes our company and our services world-class."
+        subtitle: "At BizEnforce your voice is always heard. Instead of executing orders from the top-down, we encourage feedback from everyone and regularly implement changes driven by our employees’ ideas. This all-inclusive approach is what makes our company and our services world-class."
     },
     {
         img: "https://assets-global.website-files.com/62226180d38a78472cd35dd2/628bd0274189cb2bf491f96c_500X500_careers_levelup.svg",

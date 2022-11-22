@@ -12,10 +12,11 @@
                         Let us do it for you
                     </h1>
                     <p class="py-4 text-center text-gray-600 text-lg md:text-xl">
-                        Seamless.AI helps professionals in the world create new relationships, opportunities, and
-                        revenue,
-                        faster than ever before. We are built on the core purpose of creating “great lives for great
-                        people,” which extends beyond our great employees to our clients, partners, and supporters.
+                        Our team is experienced on the development of Solutions to Optimization problems, IT Support,
+                        Consultancy, Customer
+                        Relation Management tools, Digital Marketing, Analytics systems, Learning Management Systems,
+                        Enterprise
+                        resource planning, API Development, and 3rd party Integrations.
                     </p>
                 </div>
             </div>
@@ -37,19 +38,16 @@
                                 Who We Are
                             </h2>
                             <p class="text-lg leading-relaxed py-3 text-gray-500">
-                                Lorem ipsum, in graphical and textual context, refers to filler text that is placed in a
-                                document or visual presentation . Lorem ipsum is derived from the Latin "dolorem ipsum"
-                                roughly
-                                translated as "pain itself." <br />
-                                Lorem ipsum, in graphical and textual context, refers to filler text that is placed in a
-                                document or visual presentation . Lorem ipsum is derived from the Latin "dolorem ipsum"
-                                roughly
-                                translated as "pain itself."
+                                We are a small team of professional Software Engineers. We are growing. After working in
+                                some of the highest tech-industries in Ethiopia, USA, and United Kingdom, we have
+                                realized that our experiences, our technical skill, our ingenuity, and our African
+                                values can be put togather to create technologies that will transform lives.
                                 <br />
-                                Lorem ipsum, in graphical and textual context, refers to filler text that is placed in a
-                                document or visual presentation . Lorem ipsum is derived from the Latin "dolorem ipsum"
-                                roughly
-                                translated as "pain itself."
+                                Our vision is to enable progressive technologies amidst a world dominated by few giants.
+                                As our first step in this grand journey we are engineering the rails on which customer
+                                development process and customer relationship flows because we believe that a real time,
+                                simple to use, responsive to customer's need platform will act as a catalyst to unlock
+                                business opportunities everywhere.
                             </p>
                         </div>
                     </div>
@@ -74,17 +72,17 @@
                         <div class="mx-auto md:py-12 md:px-4 sm:px-6">
                             <h2 class="text-lg text-blue-900 font-semibold py-2">BizEnforce</h2>
                             <h2 class="text-3xl font-extrabold text-gray-900 sm:text-3xl">
-                                Lorem ipsum doler sit
+                                A team of tech experts
                             </h2>
                             <p class="text-md  md:py-3 text-gray-500">
-                                Lorem ipsum, in graphical and textual context, refers to filler text that is placed in a
-                                document or visual presentation . Lorem ipsum is derived from the Latin "dolorem ipsum"
-                                roughly
-                                translated as "pain itself." <br />
-                                Lorem ipsum, in graphical and textual context, refers to filler text that is placed in a
-                                document or visual presentation . Lorem ipsum is derived from the Latin "dolorem ipsum"
-                                roughly
-                                translated as "pain itself."
+                                We are a small team of professional Software Engineers. After working in some of the
+                                highest Tech Industries in Ethiopia, USA, and United Kingdom, we realized that our
+                                experience, technical skills, and our African values can be put togather to create
+                                technologies that will transform lives.<br/>
+                                As our first step in this grand journey we are engineering the rails on which customer
+                                development process and customer relationship flows because we believe that a real time,
+                                simple to use, responsive to customer's need platform will act as a catalyst to unlock
+                                business opportunities everywhere
                             </p>
                         </div>
                     </div>
@@ -97,12 +95,13 @@
                 <div>
                     <h2 class="text-lg text-gray-100 font-semibold py-2 text-center">OUR MISSION</h2>
                     <h2 class="text-3xl text-center font-extrabold text-white md:text-6xl py-3">
-                        To help the world connect to opportunity and positively impact billions.
+                        To help the world connect to opportunity and positively impact business.
                     </h2>
                     <p class="text-md md:text-lg text-center font-normal text-white mx-auto py-3">
-                        We help people achieve independence by making it easier to start, run, and grow a business. We
-                        believe the future of commerce has more voices, not fewer, so we’re reducing the barriers to
-                        business ownership to make commerce better for everyone.
+                        We’re on a mission to help you connect to opportunity and positively impact business. We'll be
+                        sharing stories, insights, and resources to help you make the most of your work and make a
+                        difference in the world. We're excited to get started, and we hope you are too. Let's make a
+                        difference, together.
                     </p>
                 </div>
             </div>
@@ -117,17 +116,19 @@
                                 What We Do
                             </h2>
                             <p class="text-lg leading-relaxed pt-3 text-gray-500">
-                                Today, prospecting and relationship building are very labor-intensive, costly,
-                                difficult, fragmented, and opaque processes undermined by outdated technology,
-                                information, and data entry that turns people off. We share in that frustration.
+                                Today, getting the right tech partner, sharing experience and skills together 
+                                for your dream goals is not easy. We know you worry for your valuable idea or business  
+                                security and confidentiality. We are just trusted experts in technology. We can advice you,
+                                we can consult your business, give you relevant IT and tech support, we can develop ERP, CRM, LMS(Schools systems),Marketing and 
+                                Sales technologies, develop and integrate API with your own system or business.
                             </p>
                             <p class="text-lg leading-relaxed text-gray-500">
-                                Now, imagine a world where it’s seamless to connect with your target market, build
+                                Now, imagine a world where it’s good to connect with your today, build
                                 profitable relationships, and acquire new clients.
                             </p>
                             <h1 class="text-xl md:text-2l py-5 font-extrabold">We imagined it. And then we delivered it.
                             </h1>
-                            <RouterLink to="/auth/signin"
+                            <RouterLink to="/support"
                                 class="inline-block shadow-xl rounded-lg bg-blue-600 px-4 py-2.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-blue-600 hover:bg-blue-700 hover:ring-blue-700">
                                 Contact us today
                                 <span class="text-blue-200" aria-hidden="true">&rarr;</span>
@@ -174,8 +175,8 @@
                     </h2>
                     <p class="text-md md:text-lg text-center font-normal text-white mx-auto py-3">
                         We help people achieve independence by making it easier to start, run, and grow a business. We
-                        believe the future of commerce has more voices, not fewer, so we’re reducing the barriers to
-                        business ownership to make commerce better for everyone.
+                        believe the future of technology has more voices, not fewer, so we’re reducing the barriers to
+                        business ownership to make work better for everyone.
                     </p>
                 </div>
             </div>
@@ -190,7 +191,7 @@
                                 Creating Great Lives For Great People
                             </h2>
                             <p class="text-lg leading-relaxed pt-3 text-gray-500">
-                                Seamless.AI builds software to help every professional in the world create new
+                              BizEnforce builds software to help every professional in the world create new
                                 relationships, opportunities and revenue, faster than ever before. We are built on the
                                 core purpose of creating “great lives for great people,” which extends beyond our great
                                 employees to our clients, partners, and supporters.
@@ -221,11 +222,11 @@
                   font-extrabold
                   text-center
                 ">
-                        Join the Rocket Ship!
+                        Join BizEnforce Now
                     </h1>
                 </div>
                 <div class="py-10 flex justify-center">
-                    <RouterLink to="/auth/signin"
+                    <RouterLink to="/career"
                         class="inline-block shadow-xl my-3 rounded-lg bg-blue-600 px-6 py-2.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-blue-600 hover:bg-blue-700 hover:ring-blue-700">
                         See Openings
                     </RouterLink>
