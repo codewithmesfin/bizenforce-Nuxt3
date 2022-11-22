@@ -31,7 +31,7 @@
             <p class="py-4 text-gray-600   text-center md:text-left  text-lg md:text-xl">
               If you are striving for success, we are your best partner.
               We are a small team of Software Engineers. After working in some of the highest Tech
-              Industries in, USA, and United Kingdom, we realized that our experience, technical skills, and
+              Industries in USA, and United Kingdom, we realized that our experience, technical skills, and
               our Tech values can be put to create technologies that will transform lives.
               <NuxtLink class="text-blue-600" to="/about">Learn More</NuxtLink>
             </p>

@@ -6,14 +6,16 @@
                     <div class="md:max-w-[70%] mx-auto xs:w-[100%] md:w-[50%] ">
                         <h1 class="
                         text-4xl font-sans
-                        md:text-6xl
+                        md:text-6xl 
                         font-extrabold text-center md:text-left
                         ">
-                            Prospecting Made Simpler
+                            Solutions are made simpler with new technology!
                         </h1>
                         <p class="py-4  text-center md:text-left text-gray-600 text-lg md:text-xl">
-                            Seamless.AI gives you the ability to connect directly with your ideal customers so you can
-                            build pipeline, shorten your sales cycle, and close more deals at scale.
+                            Innovating exceptionally fruitful solutions is what BizEnforec does best. We focus on
+                            identifying key problems in your business and coming up with solutions that will help you
+                            overcome these challenges. By working with us, you can be sure that you are getting the best
+                            possible service and results.
                         </p>
                         <section>
                             <EmailCollectFieldVue />
@@ -21,9 +23,7 @@
                     </div>
                     <div class="xs:w-[100%] md:w-[50%] lg:inset-y-0 lg:right-0 lg:w-1/2">
                         <img class="h-56 md:w-full object-cover sm:h-72 md:h-96 lg:w-full min-h-[550px]"
-                            src="~/assets/feature.png"
-                            loading="lazy" 
-                            alt="" />
+                            src="~/assets/feature.png" loading="lazy" alt="" />
                     </div>
                 </div>
             </div>
@@ -40,8 +40,8 @@
                         Find Your Ideal Solutions
                     </h1>
                     <p class="py-4 text-center text-gray-600 text-lg md:text-xl">
-                        Easily build pipeline and discover target accounts with powerful firmographic filters and
-                        business insights.
+                        Our dream is to build a tech oriented solution that will elevate your business success. We want
+                        to work with you to create a system that is easy to use and helps you save time and money.
                     </p>
                 </div>
             </div>
@@ -135,16 +135,16 @@
 import EmailCollectFieldVue from '~/components/EmailCollectField.vue';
 const topFeatures = [
     {
-        title: "Crush Your Sales Quota",
-        subtitle: "Simplify list-building to optimize pipeline generation and seller success across your organization."
+        title: "Get advice from tech experts.",
+        subtitle: "BizEnforce helps businesses find solutions to their problems. It is rich of professionals in experienced in solving real world problems."
     },
     {
-        title: "Increase Rep Productivity by 45%",
-        subtitle: "Keep reps focused on closing deals by automating their list-building and prospecting."
+        title: "Make your idea valuable",
+        subtitle: "BizEnforce is your best partner. It helps you to research your ideas, discuss, and ready for innovation."
     },
     {
-        title: "Prospect Less, Close More",
-        subtitle: "A.I. recommendations continuously finds prospective buyers so you can proactively reach out."
+        title: "Get your dream business succeed",
+        subtitle: "Technology has always been about transformation. Taking an idea and turning it into something that can solve problems. That's what we're all about."
     }
 ]
 const topFeatures2 = [
@@ -162,9 +162,9 @@ const topFeatures2 = [
     }
 ]
 useHead({
-  title: 'Features',
-  meta: [
-    { name: 'description', content: 'Prospecting Made Simpler' }
-  ],
+    title: 'Features',
+    meta: [
+        { name: 'description', content: 'Prospecting Made Simpler' }
+    ],
 })
 </script>
