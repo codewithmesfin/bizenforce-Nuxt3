@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="bg-black bg2 py-10">
+        <section class="bg-black bg2 py-32 md:py-10">
             <div class="md:max-w-[60%] px-5  md:pt-12 mx-auto md:px-2 sm:px-6 lg:px-8 ">
                 <div>
                     <h2 class="text-lg text-gray-100 font-semibold py-2 text-center">Our Services</h2>
