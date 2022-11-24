@@ -1,5 +1,6 @@
 <script setup>
 import Search from '../../components/Search'
+import  CareerDetail  from '../../components/CareerDetail';
 const employmentTypes = [
     "Onsite", 'Remote', 'Freelance', 'Full-Time', 'Part-Time', 'Contactual'
 ]
@@ -10,6 +11,7 @@ const { data: jobs } = await useFetch(
 
 <template>
     <div>
+
         <section class="md:bg-[#edf2f7] md:fixed md:h-screen w-full">
             <div class="md:max-w-7xl pt-16 md:pt-24 justify-center w-[100%] md:px-4 mx-auto">
                 <div class="md:flex justify-between md:space-x-6">
@@ -48,6 +50,7 @@ const { data: jobs } = await useFetch(
                         </button>
                     </div>
                     <!-- mobile view  -->
+                    <CareerDetail/>
                     <div class="w-full md:w-[73%] md:h-screen md:pb-[200px] md:overflow-y-auto">
                         <div class="md:flex justify-between md:space-x-5">
                             <div class="w-full md:w-[65%] bg-white md:rounded-xl md:border border-gray-300">

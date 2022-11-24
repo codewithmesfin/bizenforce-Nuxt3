@@ -81,7 +81,7 @@
                         md:text-6xl
                         font-extrabold py-2
                         ">
-                            See How Our Tesfa Mergia Generates Millions
+                            See How Tesfa Mergia Generates Millions
                         </h1>
                         <p class="py-4  text-gray-600 text-lg md:text-xl">
                           The Awesome team, at BizEnforce is exceptionally professional, creativity, and fruitful.
