@@ -1,13 +1,4 @@
-<script setup>
-import Search from '../../components/Search'
-import  CareerDetail  from '../../components/CareerDetail';
-const employmentTypes = [
-    "Onsite", 'Remote', 'Freelance', 'Full-Time', 'Part-Time', 'Contactual'
-]
-const { data: jobs } = await useFetch(
-    "https://arbeitnow.com/api/job-board-api"
-);
-</script>
+
 
 <template>
     <div>
@@ -50,7 +41,7 @@ const { data: jobs } = await useFetch(
                         </button>
                     </div>
                     <!-- mobile view  -->
-                    <CareerDetail/>
+                    <!-- <CareerDetail/> -->
                     <div class="w-full md:w-[73%] md:h-screen md:pb-[200px] md:overflow-y-auto">
                         <div class="md:flex justify-between md:space-x-5">
                             <div class="w-full md:w-[65%] bg-white md:rounded-xl md:border border-gray-300">
@@ -141,3 +132,15 @@ const { data: jobs } = await useFetch(
         </section>
     </div>
 </template>
+
+
+<script setup>
+import Search from '../../components/Search'
+import  CareerDetail  from '../../components/CareerDetail';
+const employmentTypes = [
+    "Onsite", 'Remote', 'Freelance', 'Full-Time', 'Part-Time', 'Contactual'
+]
+const { data: jobs } = await useFetch(
+    "https://arbeitnow.com/api/job-board-api"
+);
+</script>
