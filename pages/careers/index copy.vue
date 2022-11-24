@@ -1,13 +1,3 @@
-<script setup>
-import Search from '../../components/Search'
-const employmentTypes = [
-    "Onsite", 'Remote', 'Freelance', 'Full-Time', 'Part-Time', 'Contactual'
-]
-const { data: jobs } = await useFetch(
-    "https://arbeitnow.com/api/job-board-api"
-);
-</script>
-
 <template>
     <div>
         <section class="md:bg-[#edf2f7] md:fixed h-screen w-full">
@@ -51,25 +41,21 @@ const { data: jobs } = await useFetch(
                     <div class="w-full md:w-[73%] h-screen pb-[200px] overflow-y-auto">
                         <div class="md:flex justify-between md:space-x-5">
                             <div class="w-full md:w-[65%] bg-white md:rounded-xl md:border border-gray-300">
-                                <div v-for="(item, i) in jobs.data" :key="i" :class="i < 1 ? 'md:rounded-t-xl' : ''"
-                                    class="border-b cursor-pointer  px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                <div v-for="i in 12" :key="i" :class="i <= 1 ? 'md:rounded-t-xl' : ''"
+                                    class="border-b hover:border-0 cursor-pointer rounded p-5 hover:bg-gray-100 dark:hover:bg-gray-700">
                                     <div class="flex space-x-5">
+                                        <div class="w-1/4">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
+                                                class="w-full h-full rounded object-contain" alt="">
+                                        </div>
                                         <div>
-                                            <h1 class="text-lg text-blue-600 py-2 font-semibold">Lorem
-                                                {{ item.title }} </h1>
-                                            <p class="text-sm text-gray-500">
-                                                <span class="text-md">{{ item.company_name }} |</span>
-                                                {{ item.location }}
-                                                <span class="text-red-600 font-semibold"> {{ item.remote ? "(Remote)" :
-                                                        ''
-                                                }}</span>
-                                                <span class="bg-blue-100 capitalize mx-2 py-1 px-3 rounded-full"
-                                                    v-for="(type, t) in item.job_types" :key="t">
-                                                    {{ type }}
-                                                </span>
+                                            <h1 class="text-lg text-blue-600 md:text-xl font-semibold">Lorem
+                                                ipsum sit doler placeholder </h1>
+                                            <h1 class="text-md">Company name and type </h1>
+                                            <p class="text-sm text-gray-500">Bole, Addis Ababa, Ethiopia (Remote)
                                             </p>
+                                            <p class="text-md text-green-600">$3,000 - $15,000</p>
                                             <div class="flex items-center space-x-4 md:space-x-10 py-2">
-                                                <p class="text-md text-green-600 py-2">$3,000 - $15,000</p>
                                                 <p class="text-green-800 text-sm">6 Minutes ago</p>
                                                 <RouterLink to="/apply-job" class="text-blue-700 text-sm">
                                                     Apply Now
@@ -139,3 +125,10 @@ const { data: jobs } = await useFetch(
         </section>
     </div>
 </template>
+
+<script setup>
+import Search from '../../components/Search'
+const employmentTypes = [
+    "Onsite", 'Remote', 'Freelance', 'Full-Time', 'Part-Time', 'Contactual'
+]
+</script>
