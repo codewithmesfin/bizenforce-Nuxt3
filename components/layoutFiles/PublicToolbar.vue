@@ -61,7 +61,7 @@
 </template>
   
 <script setup>
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+import { Disclosure, DisclosureButton, DisclosurePanel,  } from '@headlessui/vue'
 
 const navigation = [
     { name: "Home", href: "/", current: false },
