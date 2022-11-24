@@ -10,7 +10,7 @@ const { data: jobs } = await useFetch(
 
 <template>
     <div>
-        <section class="md:bg-[#edf2f7] md:fixed h-screen w-full">
+        <section class="md:bg-[#edf2f7] md:fixed md:h-screen w-full">
             <div class="md:max-w-7xl pt-16 md:pt-24 justify-center w-[100%] md:px-4 mx-auto">
                 <div class="md:flex justify-between md:space-x-6">
                     <div
@@ -48,22 +48,21 @@ const { data: jobs } = await useFetch(
                         </button>
                     </div>
                     <!-- mobile view  -->
-                    <div class="w-full md:w-[73%] h-screen pb-[200px] overflow-y-auto">
+                    <div class="w-full md:w-[73%] md:h-screen md:pb-[200px] md:overflow-y-auto">
                         <div class="md:flex justify-between md:space-x-5">
                             <div class="w-full md:w-[65%] bg-white md:rounded-xl md:border border-gray-300">
                                 <div v-for="(item, i) in jobs.data" :key="i" :class="i < 1 ? 'md:rounded-t-xl' : ''"
-                                    class="border-b cursor-pointer  px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    class="border-b cursor-pointer px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
                                     <div class="flex space-x-5">
                                         <div>
-                                            <h1 class="text-lg text-blue-600 py-2 font-semibold">Lorem
-                                                {{ item.title }} </h1>
+                                            <h1 class="text-lg text-blue-600 py-2 font-semibold">{{ item.title }} </h1>
                                             <p class="text-sm text-gray-500">
                                                 <span class="text-md">{{ item.company_name }} |</span>
                                                 {{ item.location }}
                                                 <span class="text-red-600 font-semibold"> {{ item.remote ? "(Remote)" :
                                                         ''
                                                 }}</span>
-                                                <span class="bg-blue-100 capitalize mx-2 py-1 px-3 rounded-full"
+                                                <span class="bg-blue-100 capitalize m-2 py-1 px-3 rounded-full"
                                                     v-for="(type, t) in item.job_types" :key="t">
                                                     {{ type }}
                                                 </span>
