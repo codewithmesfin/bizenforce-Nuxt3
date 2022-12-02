@@ -1,10 +1,11 @@
 <template>
-  <div>
-    <PublicToolbar />
+    <div>
+        <PublicToolbar/>
     <slot />
-    <Footer />
-  </div>
-</template>
+   
+    <Footer/>
+    </div>
+  </template>
 
 <script setup>
 import PublicToolbar from "../components/layoutFiles/PublicToolbar.vue";

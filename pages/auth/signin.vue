@@ -12,18 +12,16 @@
             >
             <input
               type="text"
-              :class="user.email===''|| user.email.includes('@') ? 'border-gray-300' : 'border-red-600'"
-              class="bg-white border text-gray-900 text-sm rounded-lg focus:ring-0 focus:outline-none block w-full p-2.5"
+              class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:outline-none block w-full p-2.5"
               placeholder="Enter your email"
               required
-              v-model="user.email"
-              @input="validateEmail(user.email)"
             />
+          
           </div>
           <div class="py-2">
             <label
               class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-              >Password</label
+              >Email Password</label
             >
             <input
               type="password"
@@ -104,10 +102,9 @@
   </section>
 </template>
 
-<script setup>
-import { ref } from "vue";
 
-const user = ref({ email: "mesfin@gmail.com" });
-const validInfo = ref({ email: true, password: true });
+
+<script setup>
+
 
 </script>
