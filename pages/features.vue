@@ -6,7 +6,7 @@
                     <div class="md:max-w-[70%] mx-auto xs:w-[100%] md:w-[50%] ">
                         <h1 class="
                         text-4xl font-sans
-                        md:text-6xl capitalize
+                        md:text-6xl capitalize py-2
                         font-extrabold text-center md:text-left
                         ">
                             Solutions are made simpler with new technology!
@@ -17,7 +17,7 @@
                             overcome these challenges. By working with us, you can be sure that you are getting the best
                             possible service and results.
                         </p>
-                        <section>
+                        <section class="py-5">
                             <EmailCollectFieldVue />
                         </section>
                     </div>

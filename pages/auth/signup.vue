@@ -1,7 +1,7 @@
 <template>
     <section class="md:bg-black bg2 pt-10 md:pb-10">
         <div class="md:max-w-7xl md:px-5 md:pt-12 mx-auto md:px-2 sm:px-6 lg:px-8 ">
-            <div class="md:flex justify-between items-center md:space-x-10">
+            <div class="md:flex justify-between items-center md:space-x-10 md:py-32">
                 <div class="md:shadow-xs md:rounded bg-white w-full items-center md:w-[40%] p-10">
                     <div class="py-2">
                         <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
@@ -40,7 +40,7 @@
                             <span class="text-blue-200" aria-hidden="true">&rarr;</span>
                         </button>
                     </div>
-                    <div>
+                    <!-- <div>
                         <section class="py-5">
                             <div class="flex justify-between items-center">
                                 <div class="h-[1px] w-[60%] bg-gray-200"></div>
@@ -73,7 +73,13 @@
                                 <RouterLink class="text-blue-600" to="/auth/signin">Sign in</RouterLink>
                             </div>
                         </section>
-                    </div>
+                    </div> -->
+                    <section class="py-3">
+                            <div class="flex justify-between space-x-10">
+                                <p>Already have an account?</p>
+                                <RouterLink class="text-blue-600" to="/auth/signin">Sign in</RouterLink>
+                            </div>
+                        </section>
                 </div>
                 <div class="hidden md:block md:w-1/2">
                     <h2 class="text-lg text-gray-100 font-semibold py-2 r">Sign up to BizEnforce</h2>

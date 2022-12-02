@@ -2,7 +2,7 @@
 <template>
   <div>
     <section>
-      <div class="md:flex md:ml-auto w-full  md:max-w-[94%] pt-16">
+      <div class="md:flex md:ml-auto w-full items-center  md:max-w-[94%] pt-16">
         <main class="
               mx-auto
               max-w-[100%]
@@ -35,11 +35,11 @@
               our Tech values can be put to create technologies that will transform lives.
               <NuxtLink class="text-blue-600" to="/about">Learn More</NuxtLink>
             </p>
-            <div>
+            <div class="py-6">
               <section>
                 <EmailCollectFieldVue />
               </section>
-              <section class="py-5">
+              <!-- <section class="py-5">
                 <div class="flex justify-between items-center">
                   <div class="h-[1px] w-[70%] bg-gray-200"></div>
                   <div class="w-[20%] text-center">Or</div>
@@ -64,7 +64,7 @@
                     <span class="pl-2 hidden md:block">Join with Facebook</span>
                   </button>
                 </div>
-              </section>
+              </section> -->
             </div>
           </div>
         </main>
