@@ -110,8 +110,4 @@ import { ref } from "vue";
 const user = ref({ email: "mesfin@gmail.com" });
 const validInfo = ref({ email: true, password: true });
 
-function validateEmail(email) {
-  validInfo.email = email.includes("@");
-  console.log(validInfo.email);
-}
 </script>
