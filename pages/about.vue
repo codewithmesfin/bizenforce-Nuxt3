@@ -1,5 +1,13 @@
 <template>
     <div>
+        <Head>
+      <Title>Let us do it for you</Title>
+      <Meta
+        name="description"
+        content="Our team is experienced on the development of Solutions to Optimization problems, IT Support, Consultancy, Customer Relation Management tools, Digital Marketing, Analytics systems, Learning Management Systems, Enterprise resource planning, API Development, and 3rd party Integrations"
+      />
+    </Head>
+
         <section class="md:max-w-7xl justify-center w-[100%] px-4  mx-auto">
             <div class="pt-32">
                 <div class=" md:max-w-[70%] mx-auto">

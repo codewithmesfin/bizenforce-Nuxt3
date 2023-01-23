@@ -21,11 +21,12 @@
                     </div>
                 </div>
                 <div class="flex items-center space-x-5 hidden md:flex">
-                    <RouterLink to="/auth/signin"
+                    <nuxt-link href="https://etyopmedia.com/chat"
+                    target="_blank"
                         class="inline-block shadow-xl rounded-lg bg-blue-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-blue-600 hover:bg-blue-700 hover:ring-blue-700">
-                        Get started free
+                        Play ChatGPT
                         <span class="text-blue-200" aria-hidden="true">&rarr;</span>
-                    </RouterLink>
+                    </nuxt-link>
                 </div>
                 <div class=" right-0  flex items-end sm:hidden">
                     <!-- Mobile menu button-->
@@ -70,7 +71,7 @@ const navigation = [
     { name: "Services", href: "/services", current: false },
     { name: "Our Process", href: "/process", current: false },
     { name: "About us", href: "/about", current: false },
-    { name: "Careers", href: "/career", current: false },
+    // { name: "Careers", href: "/career", current: false },
     { name: "Support", href: "/support", current: false }
 ]
 </script>

@@ -21,7 +21,7 @@
           <div class="py-2">
             <label
               class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-              >Email Password</label
+              >Password</label
             >
             <input
               type="password"
@@ -69,7 +69,7 @@
               <div class="flex justify-between space-x-10">
                 <RouterLink
                   class="text-blue-600 text-xs md:text-sm"
-                  to="/forgot-password"
+                  to="/auth/forgot-password"
                   >Forgot your password?</RouterLink
                 >
                 <RouterLink
